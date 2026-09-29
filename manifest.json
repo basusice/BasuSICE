@@ -1,0 +1,14 @@
+{
+  "name":"BasuSICE — Proyecto Verde Esperanza · SICE",
+  "short_name":"BasuSICE",
+  "start_url":"./index.html",
+  "scope":"./",
+  "display":"standalone",
+  "orientation":"portrait-primary",
+  "background_color":"#f5f8f6",
+  "theme_color":"#176b4d",
+  "description":"Aplicación de ciencia ciudadana para organizar recogidas, caracterizar residuos y generar datos ambientales.",
+  "lang":"es-CO",
+  "categories":["education","environmental","social"],
+  "icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

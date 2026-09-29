@@ -1,0 +1,25 @@
+# Checklist de publicación BasuSICE 1.0.0
+
+- [ ] Dominio HTTPS configurado.
+- [ ] API separada de la PWA.
+- [ ] `BASUSICE_ADMIN_KEY` generado y almacenado como secreto.
+- [ ] CORS restringido al dominio de la aplicación.
+- [ ] Base de datos de producción configurada.
+- [ ] Copias de seguridad automáticas probadas.
+- [ ] Almacenamiento seguro de fotografías configurado.
+- [ ] Correo institucional de soporte definido.
+- [ ] Política de privacidad revisada por la institución.
+- [ ] Términos de uso revisados por la institución.
+- [ ] Consentimiento y reglas de tratamiento de datos definidos.
+- [ ] Prueba de geolocalización en Android/iOS.
+- [ ] Prueba de cámara en Android/iOS.
+- [ ] Prueba offline/online y sincronización.
+- [ ] Prueba con varios usuarios simultáneos.
+- [ ] Prueba de recuperación ante fallo del servidor.
+- [ ] Revisión de fotografías para evitar PII innecesaria.
+- [ ] Icono y capturas de tienda preparados.
+- [ ] Nombre, autor y descripción verificados.
+- [ ] Build Android firmada.
+- [ ] Build iOS firmada.
+- [ ] Cuenta Google Play Console configurada.
+- [ ] Cuenta Apple Developer configurada.

@@ -1,0 +1,6 @@
+LICENCIA PENDIENTE DE DEFINICIÓN INSTITUCIONAL
+
+BasuSICE · Proyecto Verde Esperanza · Semillero SICE
+Autor: Mg. Erquinio Alberto Taborda Martinez
+
+Antes de distribuir el software, la institución responsable debe seleccionar y documentar la licencia del código, la licencia de los datos científicos y las condiciones de uso de los logotipos SICE y VERALU.
