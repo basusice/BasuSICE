@@ -1,8 +1,9 @@
 {
   "name":"basusice-server",
-  "version":"1.1.0",
+  "version":"1.2.0",
   "private":true,
-  "description":"Backend de BasuSICE · Proyecto Verde Esperanza · SICE",
+  "description":"Backend central de BasuSICE · Proyecto Verde Esperanza · SICE",
   "scripts":{"start":"node server.js"},
-  "engines":{"node":">=18"}
+  "engines":{"node":">=18"},
+  "dependencies":{"pg":"^8.16.3"}
 }
