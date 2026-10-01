@@ -1,4 +1,4 @@
-# BasuSICE 1.0.0 — Release Candidate
+# BasuSICE 1.1.0 — GitHub Pages / Offline Fix
 
 **Proyecto Verde Esperanza · Semillero SICE · IED San Gabriel · Barranquilla, Colombia**  
 **Autor: Mg. Erquinio Alberto Taborda Martinez**
@@ -7,7 +7,10 @@ BasuSICE es una plataforma de ciencia ciudadana para organizar recogidas colabor
 
 ## Incluye
 - PWA móvil instalable.
-- Trabajo offline y sincronización.
+- Trabajo offline y sincronización local.
+- Navegación interna independiente de Internet.
+- Mapa local offline; OpenStreetMap solo cuando hay conexión.
+- Encuesta local con exportación CSV.
 - Registro científico de residuos.
 - GPS, fotografías y recorridos.
 - Mapa local y panel científico.
@@ -19,6 +22,9 @@ BasuSICE es una plataforma de ciencia ciudadana para organizar recogidas colabor
 - Logos SICE y VERALU.
 - Política de privacidad y términos de uso como plantillas institucionales.
 - Documentación de despliegue y publicación.
+
+## Publicación en GitHub Pages
+Esta versión está preparada para un sitio de proyecto publicado en `https://<usuario>.github.io/BasuSICE/`. GitHub Pages sirve archivos estáticos; por tanto, la caracterización, mapa local, encuesta, GPS y almacenamiento local funcionan en el dispositivo, mientras que la sincronización multiusuario requiere desplegar el backend en un servidor HTTPS.
 
 ## Ejecución local
 Requiere Node.js 18+.
