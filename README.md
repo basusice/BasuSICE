@@ -1,4 +1,4 @@
-# BasuSICE 1.1.0 — GitHub Pages / Offline Fix
+# BasuSICE 1.1.1 — GitHub Pages / Offline Fix
 
 **Proyecto Verde Esperanza · Semillero SICE · IED San Gabriel · Barranquilla, Colombia**  
 **Autor: Mg. Erquinio Alberto Taborda Martinez**

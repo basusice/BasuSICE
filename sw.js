@@ -1,4 +1,4 @@
-const VERSION='basusice-1.1.0';
+const VERSION='basusice-1.1.1-final';
 const BASE=new URL('./',self.registration.scope).href;
 const SHELL=['','index.html','manifest.json','icon.svg','logo-sice.jpg','logo-veralu.jpg','admin.html','privacy.html','terms.html'].map(p=>new URL(p,BASE).href);
 self.addEventListener('install',event=>event.waitUntil(caches.open(VERSION).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting())));

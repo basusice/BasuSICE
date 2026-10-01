@@ -1,4 +1,4 @@
-# BasuSICE 1.1.0 — guía de despliegue
+# BasuSICE 1.1.1 — guía de despliegue
 
 ## 1. GitHub Pages (frontend)
 Para publicar esta versión en un repositorio de proyecto, configura GitHub Pages en `main` y `/ (root)`. La URL tendrá la forma `https://<usuario>.github.io/BasuSICE/`. Los sitios de proyecto de GitHub Pages se publican bajo la ruta del repositorio. 
