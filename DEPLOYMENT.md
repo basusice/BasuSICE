@@ -1,9 +1,9 @@
-# BasuSICE 1.1.1 — guía de despliegue
+# BasuSICE 1.2.0 — guía de despliegue
 
 ## 1. GitHub Pages (frontend)
 Para publicar esta versión en un repositorio de proyecto, configura GitHub Pages en `main` y `/ (root)`. La URL tendrá la forma `https://<usuario>.github.io/BasuSICE/`. Los sitios de proyecto de GitHub Pages se publican bajo la ruta del repositorio. 
 
-Esta versión incluye un service worker preparado para esa subruta y navegación interna sin red.
+La PWA 1.2.0 conserva el funcionamiento offline y el service worker preparado para esa subruta y navegación interna sin red.
 
 ## 2. Requisitos
 - Node.js 18+.
@@ -44,3 +44,16 @@ Para producción, almacenar imágenes en un servicio de objetos (S3 compatible, 
 
 ## 9. Publicación móvil
 La PWA puede instalarse desde navegador. Para Google Play y App Store se recomienda empaquetarla posteriormente con Capacitor o una aplicación nativa, manteniendo esta API como backend.
+
+## Backend central 1.2.0 (PostgreSQL + Render)
+
+Esta versión incluye `server.js`, `render.yaml` y `db/schema.sql` para desplegar una API central con PostgreSQL. Render permite definir un Web Service y una base Postgres en un Blueprint y pasar la cadena de conexión mediante `fromDatabase`.
+
+1. Sube estos archivos al repositorio `basusice/BasuSICE` y confirma el cambio.
+2. En Render crea **New → Blueprint** y selecciona el repositorio.
+3. Render leerá `render.yaml` y propondrá `basusice-api` + `basusice-db`.
+4. Al terminar, prueba `https://TU-SERVICIO.onrender.com/api/health`.
+5. En BasuSICE → Perfil → Cuenta y servidor SICE, introduce esa URL y crea la cuenta del participante.
+6. Pulsa **Conectar**. Los registros pendientes se enviarán con **Sincronizar** y también al recuperar conexión.
+
+No publiques claves secretas en GitHub. `BASUSICE_ADMIN_KEY` se genera en Render mediante `generateValue`.
